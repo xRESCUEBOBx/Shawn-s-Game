@@ -1,0 +1,16 @@
+potions = health,mana,antidote,strength
+
+enemies {
+  [scorpion,bear,wolf]
+  [goblin,skeleton,ghost]
+  [bosses]
+
+}
+
+players {
+  [barbarian]
+  [rouge]
+  [mage]
+  [bard]
+  [assassin]
+}

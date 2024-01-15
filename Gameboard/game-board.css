@@ -1,0 +1,143 @@
+.body-div {
+  display: grid;
+  grid-template:
+    "nav1 header nav2" 1fr
+    "nav1 cardholder nav2" 6fr
+    "nav1 footer nav2" 1fr /
+    1fr 3fr 1fr;
+}
+.header {
+  grid-area: header;
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.header-img {
+  width: 45px;
+}
+.timer-spells {
+  border: solid 1px black;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.timer {
+  flex: 1;
+  border: 1px solid gold;
+}
+.spells {
+  flex: 1;
+  border: 1px solid gold;
+}
+.keys-potions {
+  border: solid 1px black;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.keys {
+  flex: 1;
+  border: 1px solid gold;
+  display: flex;
+}
+.key-img {
+  height: 58px;
+}
+.potions {
+  flex: 1;
+  border: 1px solid gold;
+  display: flex;
+}
+.health {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.mana {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
+}
+.antidote {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.settings-currency {
+  border: solid 1px black;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.settings {
+  flex: 1;
+  border: 1px solid gold;
+}
+.currency {
+  flex: 1;
+  border: 1px solid gold;
+}
+
+.cardholder {
+  background-color: lightcoral;
+  grid-area: cardholder;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.img-box {
+  width: fit-content;
+  border: 1px solid black;
+  display: flex;
+}
+.card-img {
+  width: 100%;
+}
+
+.nav1 {
+  background-color: blue;
+  grid-area: nav1;
+  display: flex;
+  flex-direction: column;
+}
+.character-health-mana {
+  flex: 1;
+  border: 1px solid gold;
+}
+.character {
+  border: 1px solid gold;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+.character-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.character-info p {
+  margin-top: 0;
+}
+.character-img {
+  width: 100%;
+  height: 100%;
+}
+.character-stats {
+  border: 1px solid gold;
+  flex: 1;
+}
+.nav2 {
+  background-color: blue;
+  grid-area: nav2;
+}
+.footer {
+  grid-area: footer;
+  background-color: gray;
+}

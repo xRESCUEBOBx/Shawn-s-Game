@@ -1,0 +1,9 @@
+
+2 shops one that accepts a special currency. displays over the game board. .container.innerHTML=newStyle?
+
+music
+
+sfx
+
+ 
+
