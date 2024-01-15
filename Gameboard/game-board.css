@@ -13,6 +13,7 @@
   flex-direction: row;
   justify-content: space-evenly;
 }
+
 .header-img {
   width: 45px;
 }
@@ -99,7 +100,6 @@
 }
 
 .nav1 {
-  background-color: blue;
   grid-area: nav1;
   display: flex;
   flex-direction: column;
@@ -107,6 +107,30 @@
 .character-health-mana {
   flex: 1;
   border: 1px solid gold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.health-bar {
+  height: 35px;
+  -webkit-appearance: none;
+}
+
+.health-bar[value]::-webkit-progress-value {
+  background-color: rgb(0, 40, 241);
+}
+.health-bar[value]::-webkit-progress-bar {
+}
+.mana-bar {
+  height: 35px;
+  -webkit-appearance: none;
+}
+
+.mana-bar[value]::-webkit-progress-value {
+  background-color: rgb(232, 4, 4);
+}
+.mana-bar[value]::-webkit-progress-bar {
 }
 .character {
   border: 1px solid gold;
@@ -134,7 +158,6 @@
   flex: 1;
 }
 .nav2 {
-  background-color: blue;
   grid-area: nav2;
 }
 .footer {
